@@ -1,0 +1,191 @@
+html {
+  background-color: hsl(30, 38%, 92%);
+  font-family: Montserrat;
+  min-height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  width: 505px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.section {
+  width: 220px;
+  padding: 20px;
+}
+
+.content div {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.container img {
+  width: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.genre {
+  font-size: 12px;
+  color: gray;
+}
+
+.title {
+  font-family: Fraunces;
+  font-size: 25px;
+  width: 180px;
+}
+
+.description {
+  color: gray;
+  font-size: 14px;
+}
+
+.cost {
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+
+.discount-price {
+  font-family: fraunces;
+  color: hsl(158, 36%, 37%);
+  font-size: 30px;
+  margin-right: 14px;
+}
+
+.original-price {
+  font-size: 14px;
+  color: gray;
+  text-decoration: line-through;
+}
+
+.button {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+
+  font-size: 14px;
+  
+  border: none;
+  border-radius: 4px;
+  padding: 14px 60px;
+  margin-top: -16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.button img {
+  width: 14px;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: hsl(140, 48%, 16%);
+}
+
+@media screen and (max-width: 376px) {
+  .container {
+    background-color: white;
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .section {
+    width: 300px;
+    padding: 20px;
+  }
+  
+  .content div {
+    flex: 1;
+    margin-bottom: 20px;
+  }
+  
+  .container img {
+    height: 240px;
+    width: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .genre {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .title {
+    font-family: Fraunces;
+    font-size: 25px;
+    width: 220px;
+  }
+  
+  .description {
+    color: gray;
+    font-size: 14px;
+    width: 270px;
+  }
+  
+  .cost {
+    display: flex;
+    align-items: center;
+    width: 200px;
+  }
+  
+  .discount-price {
+    font-family: fraunces;
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    margin-right: 14px;
+  }
+  
+  .original-price {
+    font-size: 14px;
+    color: gray;
+    text-decoration: line-through;
+  }
+  
+  .button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+  
+    font-size: 14px;
+    
+    border: none;
+    border-radius: 4px;
+    padding: 14px 80px;
+    margin-top: -16px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  
+  .button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .button:hover {
+    background-color: hsl(140, 48%, 16%);
+  } 
+}
